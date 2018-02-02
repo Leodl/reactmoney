@@ -113,7 +113,7 @@ class record extends Component {
 
 
 render(){
-	if(this.state.isEdit==false){
+	if(this.state.isEdit===false){
        return this.recordRow()
 	}else{
        return this.recordedit()

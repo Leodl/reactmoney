@@ -7,7 +7,7 @@
  import React,{ Component } from "react"
   import Constants from '../utils/constants';
  import $ from "jquery";
- import moment from 'moment';
+ // import moment from 'moment';
 import 'moment/locale/zh-cn';
 
 

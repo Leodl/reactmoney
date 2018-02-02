@@ -80,7 +80,7 @@ class records extends Component {
 
    deleteList(data){
        this.state.records.map((val,i)=>{
-       	if(val.id==data.id){
+       	if(val.id===data.id){
           this.state.records.splice(i,1)
        	}
        })
