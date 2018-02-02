@@ -9,7 +9,7 @@
 var Constants =function(){
 	var obj = {}
 
-	obj.testApi = "http://5a7280f8475b310012119a96.mockapi.io/api/v1";
+	obj.testApi = "https://5a7280f8475b310012119a96.mockapi.io/api/v1";
 	
 
 	return obj;
